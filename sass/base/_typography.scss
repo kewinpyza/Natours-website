@@ -1,0 +1,32 @@
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: $color-grey-dark;
+  padding: 3rem;
+}
+
+.heading-primary {
+  color: $color-white;
+  text-transform: uppercase;
+  margin-bottom: 5.6rem;
+  backface-visibility: hidden;
+
+  &--main {
+    display: block;
+    font-size: 5.4rem;
+    font-weight: 400;
+    letter-spacing: 3rem;
+
+    animation: moveFromRight 1s ease-out;
+  }
+
+  &--sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.85rem;
+
+    animation: moveFromLeft 1s ease-out;
+  }
+}
