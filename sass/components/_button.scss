@@ -36,6 +36,16 @@
     }
   }
 
+  &--blue {
+    background-color: $color-primary;
+    color: $color-white;
+    font-weight: 600;
+
+    &::after {
+      background-color: rgba($color-primary, 0.75);
+    }
+  }
+
   &::after {
     content: "";
     display: inline-block;
